@@ -1,6 +1,6 @@
 var trex, trex_running, trex_collided;
 var ground, invisibleGround, groundImage;
-
+var cloud
 
 
 
@@ -12,7 +12,7 @@ function preload(){
   trex_collided = loadImage("trex_collided.png");
   
   groundImage = loadImage("ground2.png");
-  
+  cloudImage=loadImage("cloud.png);
  
   
 }
@@ -40,7 +40,7 @@ function setup() {
 
 function draw() {
   //set background color
-  background(220);
+  background(180);
   
   
   
@@ -62,6 +62,7 @@ function draw() {
   drawSprites();
   
 }
+  
 
 
 
